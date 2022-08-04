@@ -3,5 +3,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
   font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+}
+
+header{
+  background-color: #3400ff;
+  height: 45vh;
+}
+
+nav{
+ float: right;
+ margin-right: 40px;
+ margin-top: 20px;
+ cursor: pointer;
+}
+
+.nav-item{
+  margin-right: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-item-active{
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  margin-right: 15px;
+  border-radius: 2px;
+  color: #5a31fc;
+  font-weight: 400;
+}
+
+.logo{
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 40%;
 }
