@@ -192,4 +192,43 @@ font-weight: 600;
   bottom: 2%;
 }
 
+.faq-section{
+  display: flex;
+  background-color:  #e9edff;
+  position: relative;
+  justify-content: space-between;
+}
 
+.faq-content{
+ width: 50%;
+ margin: 40px 60px;
+}
+
+.faq-content > h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.faq-content > h4{
+  font-size: 14px;
+}
+.faq-content > h4:nth-of-type(2){
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.faq-content > button{
+  background-color:#5a31fc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+.faq-image{
+  width: 50%;
+}
+
+.faq-image img{
+  height: 100%;
+  align-self: flex-end;
+  width: 100%;
+}
